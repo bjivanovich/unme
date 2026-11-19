@@ -1,0 +1,8 @@
+# UNME Core Dependencies
+torch>=2.4.0
+transformers>=4.40.0
+numpy>=1.26.0
+cryptography>=42.0.0
+
+# Testing and Benchmarks
+pytest>=8.0.0

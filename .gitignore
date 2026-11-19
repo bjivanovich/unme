@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local benchmark data and persistent database files
+data/
+*.umrh
+*.umrt
+*.umrc
+*.epoch
+*.enc
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.gguf
+
+# IDE / OS specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
